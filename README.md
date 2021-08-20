@@ -1,9 +1,11 @@
 # Marvel Characters API
 
 This project is intended to fetch Marvel's characters data and simplify the response. </br >
-There are two endpoints:</br >
+There are two main endpoints:</br >
 - /characters to receive 100 characters id
 - /characters/{id} to receive one character based on the id consist of id, name, and description of the character
+And a Swagger API docs
+- /api-docs
 
 ## Use environment variables
 The environment variables are saved in .env file under src directory. The file contains:
@@ -25,7 +27,7 @@ Hints:
 - BASE_URL is Marvel's base url (API gateway)
 - PUBLIC_KEY is your Public Key you have got from Marvel Developer Portal
 - PRIVATE_KEY is your Private Key you have got from Marvel Developer Portal
-- AUTHOR is Author's name
+- AUTHOR is an author's name info for Swagger
 - CHARACTERS_URI is the uri of character's endpoint
 
 ## Steps to install dependencies, test, build and run the app

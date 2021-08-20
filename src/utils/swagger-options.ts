@@ -5,7 +5,7 @@ const swaggerOptions = {
             title: "Marvel Characters API",
             description: "This is the documentation for Marvel Characters API. Every response of the API has been simplified based on the requirements.",
             contact: {
-                name: process.env.PORT
+                name: process.env.AUTHOR
             },
             servers: [`${process.env.HOST}:${process.env.PORT}`]
         }
