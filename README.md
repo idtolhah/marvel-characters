@@ -9,25 +9,25 @@ There are two endpoints:</br >
 
 To install all the dependencies needed for the project, in the project directory, you can run:
 ### `npm install`
-<hr /><br />
+<hr />
 
 To run the app in the development mode, run:
 ### `npm start`
 Open:
 - [http://localhost:8080/characters](http://localhost:8080/characters) for the first endpoint
-- [http://localhost:8080/characters/1016823](http://localhost:8080/characters/1016823) for the second enpoint
-to view it in the browser.
+- [http://localhost:8080/characters/1016823](http://localhost:8080/characters/1016823) for the second endpoint
+to view it in the browser. <br />
 The page will reload if you make edits.
-<hr /><br />
+<hr />
 
 To launch the test runner in the interactive watch mode using jest, run:
 ### `npm test`
-<hr /><br />
+<hr />
 
 To build the app for production to the `build` folder, run:
 ### `npm run build`
 It correctly bundles the project in production mode and optimizes the build for the best performance.
-<hr /><br />
+<hr />
 
 To run production build, make sure you already install pm2. If you do not install it yet, run:
 ### `npm install -g pm2`
