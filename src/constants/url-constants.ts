@@ -1,2 +1,4 @@
-export const BASE_URL = 'https://gateway.marvel.com:443';
-export const CHARACTERS_URI = '/v1/public/characters';
+require('dotenv').config({path: './src/.env'});
+
+export const BASE_URL = process.env.BASE_URL || '';
+export const CHARACTERS_URI = process.env.CHARACTERS_URI || '';
