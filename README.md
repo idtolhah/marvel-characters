@@ -5,6 +5,19 @@ There are two endpoints:</br >
 - /characters to receive 100 characters id
 - /characters/{id} to receive one character based on the id consist of id, name, and description of the character
 
+## Use environment variables
+The environment variables are saved in .env file under src directory
+```
+NODE_ENV = development
+HOST = http://localhost
+PORT = 8080
+BASE_URL = https://gateway.marvel.com:443
+PUBLIC_KEY = <<YOUR_PUBLIC_KEY>>
+PRIVATE_KEY = <<YOUR_PRIVATE_KEY>>
+AUTHOR = Tolhah
+CHARACTERS_URI = /v1/public/characters
+```
+<br />
 ## Steps to install dependencies, test, build and run the app
 
 To install all the dependencies needed for the project, in the project directory, you can run:
@@ -24,7 +37,7 @@ To launch the test runner in the interactive watch mode using jest, run:
 ### `npm test`
 <hr />
 
-To build the app for production to the `build` folder, run:
+To build the app for production to the `build` directory, run:
 ### `npm run build`
 It correctly bundles the project in production mode and optimizes the build for the best performance.
 <hr />
