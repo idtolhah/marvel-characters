@@ -6,7 +6,7 @@ There are two endpoints:</br >
 - /characters/{id} to receive one character based on the id consist of id, name, and description of the character
 
 ## Use environment variables
-The environment variables are saved in .env file under src directory
+The environment variables are saved in .env file under src directory. The file contains:
 ```
 NODE_ENV = development
 HOST = http://localhost
@@ -17,7 +17,17 @@ PRIVATE_KEY = <<YOUR_PRIVATE_KEY>>
 AUTHOR = Tolhah
 CHARACTERS_URI = /v1/public/characters
 ```
-<br />
+
+Hints:
+- NODE_ENV is the app environment you are using
+- HOST is the host where you want the app run in
+- PORT is the port number
+- BASE_URL is Marvel's base url (API gateway)
+- PUBLIC_KEY is your Public Key you've got from Marvel Developer Portal
+- PRIVATE_KEY is your Private Key you've got from Marvel Developer Portal
+- AUTHOR is Author's name
+- CHARACTERS_URI is the uri of character's endpoint
+
 ## Steps to install dependencies, test, build and run the app
 
 To install all the dependencies needed for the project, in the project directory, you can run:
