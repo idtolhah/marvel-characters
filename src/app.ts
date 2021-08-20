@@ -7,17 +7,17 @@ import { NotFoundError } from './errors/not-found-error';
 import { errorHandler } from './errors/error-handler';
 import characterRoutes from './routes/character-routes';
 
+const swaggerJsDoc = require('swagger-jsdoc');
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocs = swaggerJsDoc(swaggerOptions);
+
 const app = express();
 app.set('trust proxy', true);
 app.use(json());
 app.use(compression());
 
-const swaggerJsDoc = require('swagger-jsdoc');
-const swaggerUi = require('swagger-ui-express');
-const swaggerDocs = swaggerJsDoc(swaggerOptions);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
-
 app.use(characterRoutes);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.all('*', async (req, res) => {
   throw new NotFoundError();
 });
