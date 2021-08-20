@@ -3,7 +3,7 @@
 This project is intended to fetch Marvel's characters data and simplify the response. </br >
 There are two main endpoints:</br >
 - /characters to receive 100 characters id
-- /characters/{id} to receive one character based on the id consist of id, name, and description of the character
+- /characters/{id} to receive one character based on the id resulting id, name, and description of the character.
 
 ## Use environment variables
 The environment variables are saved in .env file under src directory. The file contains:
