@@ -34,3 +34,6 @@ To run production build, make sure you already install pm2. If you do not instal
 
 Then run it with:
 ### `pm2 start ./build/index.js`
+
+Or, you can also build and run it with a single command:
+### `npm run prod`
