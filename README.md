@@ -4,8 +4,6 @@ This project is intended to fetch Marvel's characters data and simplify the resp
 There are two main endpoints:</br >
 - /characters to receive 100 characters id
 - /characters/{id} to receive one character based on the id consist of id, name, and description of the character
-And a Swagger API docs
-- /api-docs
 
 ## Use environment variables
 The environment variables are saved in .env file under src directory. The file contains:
@@ -41,6 +39,7 @@ To run the app in the development mode, run:
 Open:
 - [http://localhost:8080/characters](http://localhost:8080/characters) for the first endpoint
 - [http://localhost:8080/characters/1016823](http://localhost:8080/characters/1016823) for the second endpoint
+- [http://localhost:8080/api-docs](http://localhost:8080/api-docs) for the Swagger API documentation link
 to view it in the browser. <br />
 The page will reload if you make edits.
 <hr />
