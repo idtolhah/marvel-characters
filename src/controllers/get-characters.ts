@@ -7,7 +7,7 @@ import { PUBLIC_KEY } from '../constants/key-constants';
 import { BASE_URL, CHARACTERS_URI } from '../constants/url-constants';
 import { ts, hash } from '../utils/hash';
 
-const cache = new NodeCache({ stdTTL: 3000, checkperiod: 3000});
+const cache = new NodeCache({ stdTTL: 86400});
 
 // @desc    Get list of characters ID
 // @route   GET /characters
