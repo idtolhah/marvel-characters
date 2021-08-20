@@ -27,3 +27,11 @@ Launches the test runner in the interactive watch mode using jest.<br />
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles the project in production mode and optimizes the build for the best performance.
+
+To run production build, make sure we install pm2.
+
+### `npm install -g pm2`
+
+Then run it
+
+### `pm2 start ./build/index.js`
