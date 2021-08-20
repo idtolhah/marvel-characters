@@ -23,8 +23,8 @@ Hints:
 - HOST is the host where you want the app run in
 - PORT is the port number
 - BASE_URL is Marvel's base url (API gateway)
-- PUBLIC_KEY is your Public Key you've got from Marvel Developer Portal
-- PRIVATE_KEY is your Private Key you've got from Marvel Developer Portal
+- PUBLIC_KEY is your Public Key you have got from Marvel Developer Portal
+- PRIVATE_KEY is your Private Key you have got from Marvel Developer Portal
 - AUTHOR is Author's name
 - CHARACTERS_URI is the uri of character's endpoint
 
