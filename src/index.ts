@@ -1,5 +1,4 @@
 import { app } from './app';
-const swaggerAutogen = require('swagger-autogen')();
 
 const start = async () => {
   app.listen(8080, () => {
