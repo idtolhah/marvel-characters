@@ -8,7 +8,7 @@ import { ts, hash } from '../utils/hash';
 import NodeCache from 'node-cache';
 import flatCache from 'flat-cache';
 
-/** Cache mode
+/** Cache Strategy
  * Choose 1 cache strategy
  * Uncomment cache1 operation to activate in-memory cache
  * Uncomment cache2 operation to activate file-based cache
